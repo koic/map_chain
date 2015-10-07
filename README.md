@@ -4,6 +4,10 @@
 %i(foo bar).map_chain('to_s.to_sym') #=> %i(foo bar).map(&:to_s).map(&:to_sym)
 ```
 
+## CAUTION
+
+If you use with ORM, ODM and so on, please be careful to N+1 query problem.
+
 ## INSTALL
 
 Add these lines to your application's Gemfile:
