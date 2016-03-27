@@ -1,4 +1,4 @@
-# map_chain
+# map_chain [![Build Status](https://travis-ci.org/koic/map_chain.svg)](https://travis-ci.org/koic/map_chain) [![Gem Version](https://badge.fury.io/rb/map_chain.svg)](http://badge.fury.io/rb/map_chain)
 
 ```ruby
 %i(foo bar).map_chain('to_s.to_sym') #=> %i(foo bar).map(&:to_s).map(&:to_sym)
